@@ -1,1 +1,1 @@
-# google-homepage
+This is my first web project - a homemade copy of Google's homepage!
