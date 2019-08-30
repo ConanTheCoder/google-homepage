@@ -69,5 +69,27 @@ a {
     color: gray;
     border: solid 1px #dddddd;
     padding-left: 30px;
+    height: 38px;
+}
+
+.country p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-link {
+    display: inline-block;
+    color: gray;
+    line-height: 20px;
+    font-size: 13px;
+    margin: 10px 20px 0px 0px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-left {
+    margin-left: 30px;
 }
 
