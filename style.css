@@ -4,6 +4,10 @@ body {
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main {
     text-align: center;
     margin: 200px auto 0;
@@ -41,8 +45,14 @@ body {
 }
 
 .button:hover {
-    color: black;
-    border: 1px solid gray;
+    color: #0f0f0f;
+    border: 1px solid #bbbbbb;
     box-shadow: #f0f0f0 2px 2px 3px;
+}
+
+.searchbar-link {
+    font-size: 12px;
+    margin: 33px;
+    letter-spacing: 0.015em;
 }
 
