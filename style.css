@@ -56,3 +56,18 @@ a {
     letter-spacing: 0.015em;
 }
 
+.footer {
+    background-color: #f0f0f0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    height: 80px;
+}
+
+.country {
+    color: gray;
+    border: solid 1px #dddddd;
+    padding-left: 30px;
+}
+
