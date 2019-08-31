@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .main {
     text-align: center;
     margin: 200px auto 0;
@@ -75,8 +79,28 @@ a {
 .country p {
     margin-top: 12px;
     margin-bottom: 12px;
+    font-size: 15px;
 }
 
+.footer-list {
+    list-style: none;
+    padding-left: 30px;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 13px;
+    margin: 10px 20px 10px 0px;
+}
+
+li a {
+    color: gray;
+}
+
+
+/*
 .footer-link {
     display: inline-block;
     color: gray;
@@ -91,5 +115,13 @@ a {
 
 .footer-left {
     margin-left: 30px;
+    width: 500px;
 }
+
+.footer-right {
+    display: inline-block;
+    width: 500px;
+}
+*/
+
 
