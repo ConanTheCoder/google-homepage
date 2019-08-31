@@ -84,44 +84,20 @@ a:hover {
 
 .footer-list {
     list-style: none;
-    padding-left: 30px;
+    padding-left: 20px;
     margin: 0px;
+    line-height: 20px;
+    font-size: 13px;
 }
 
 li {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 13px;
-    margin: 10px 20px 10px 0px;
+    float: left;
 }
 
 li a {
+    display: block;
     color: gray;
+    height: 20px;
+    padding: 10px; 
 }
-
-
-/*
-.footer-link {
-    display: inline-block;
-    color: gray;
-    line-height: 20px;
-    font-size: 13px;
-    margin: 10px 20px 0px 0px;
-}
-
-.footer-link:hover {
-    text-decoration: underline;
-}
-
-.footer-left {
-    margin-left: 30px;
-    width: 500px;
-}
-
-.footer-right {
-    display: inline-block;
-    width: 500px;
-}
-*/
-
 
