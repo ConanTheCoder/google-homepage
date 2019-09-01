@@ -12,9 +12,49 @@ a:hover {
     text-decoration: underline;
 }
 
+.header {
+    top: 0px;
+    height: 40px;
+}
+
+.header-list {
+    list-style: none;
+    line-height: 18px;
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.header-list li {
+    float: right;
+}
+
+.header-list li a {
+    display: block;
+    padding: 6px 0px;
+    margin: 0px 10px;
+    color: gray;
+}
+
+#grid-img {
+    object-fit: contain;
+}
+
+#sign-in {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 6px 6px;
+    width: 53px;
+
+}
+
 .main {
     text-align: center;
-    margin: 200px auto 0;
+    margin: 150px auto 0;
     width: 600px;
 }
 
@@ -90,11 +130,11 @@ a:hover {
     font-size: 13px;
 }
 
-li {
+.footer-list li {
     float: left;
 }
 
-li a {
+.footer-list li a {
     display: block;
     color: gray;
     height: 20px;
